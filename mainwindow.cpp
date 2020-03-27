@@ -18,7 +18,7 @@ void MainWindow::on_Text_clicked()
 {
    // QApplication::quit();
 
-    ui->Anzeige->setPlainText("TUeztgghhst");
+    ui->Anzeige->setPlainText("Version1");
 }
 
 void MainWindow::on_Aus_clicked()
