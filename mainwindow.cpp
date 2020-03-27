@@ -18,7 +18,7 @@ void MainWindow::on_Text_clicked()
 {
    // QApplication::quit();
 
-    ui->Anzeige->setPlainText("Version1");
+    ui->Anzeige->setPlainText("Anna");
 }
 
 void MainWindow::on_Aus_clicked()
