@@ -18,7 +18,7 @@ void MainWindow::on_Text_clicked()
 {
    // QApplication::quit();
 
-    ui->Anzeige->setPlainText("TUst");
+    ui->Anzeige->setPlainText("TUeztgghhst");
 }
 
 void MainWindow::on_Aus_clicked()
