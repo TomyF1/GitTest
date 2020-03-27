@@ -25,3 +25,5 @@ void MainWindow::on_Aus_clicked()
 {
      QApplication::quit();
 }
+
+
