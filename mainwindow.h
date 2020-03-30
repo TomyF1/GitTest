@@ -4,6 +4,9 @@
 #include <QMainWindow>
 #include <QMessageBox>
 #include <QDebug>
+#include "zweitesfenster.h"
+#include <QDialog>
+
 
 
 QT_BEGIN_NAMESPACE
@@ -26,6 +29,8 @@ private slots:
 
     void on_KlickMe_pressed();
 
+
+    void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
