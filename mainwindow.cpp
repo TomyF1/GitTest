@@ -6,11 +6,17 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+
 }
 
 MainWindow::~MainWindow()
 {
+    connect(ui->verticalSlider,SIGNAL(valueChanged(int)),ui->progressBar_2,SLOT(setValue(int)));
+    //connect(ui->verticalSlider,SIGNAL(valueChanged(int)),ui->progressBar,SLOT(setValue(int)));
+
     delete ui;
+
 }
 
 
@@ -27,3 +33,8 @@ void MainWindow::on_Aus_clicked()
 }
 
 
+void MainWindow::on_KlickMe_pressed()
+{
+    ui->Anzeige->setPlainText("Spielkind");
+
+}

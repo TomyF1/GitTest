@@ -23,6 +23,10 @@ private slots:
 
     void on_Aus_clicked();
 
+
+    void on_KlickMe_pressed();
+
+
 private:
     Ui::MainWindow *ui;
 };
